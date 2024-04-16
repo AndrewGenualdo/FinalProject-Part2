@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part
 
 build cmake_object_order_depends_target_FinalProject_Part2: phony || CMakeFiles/FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/final_part2.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/final_part2.cpp || cmake_object_order_depends_target_FinalProject_Part2
-  DEP_FILE = CMakeFiles\FinalProject_Part2.dir\final_part2.cpp.obj.d
+build CMakeFiles/FinalProject_Part2.dir/final_part4.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/final_part4.cpp || cmake_object_order_depends_target_FinalProject_Part2
+  DEP_FILE = CMakeFiles\FinalProject_Part2.dir\final_part4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
@@ -67,6 +67,30 @@ build CMakeFiles/FinalProject_Part2.dir/person.cpp.obj: CXX_COMPILER__FinalProje
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
 
+build CMakeFiles/FinalProject_Part2.dir/patient.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/patient.cpp || cmake_object_order_depends_target_FinalProject_Part2
+  DEP_FILE = CMakeFiles\FinalProject_Part2.dir\patient.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
+
+build CMakeFiles/FinalProject_Part2.dir/doctorOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/doctorOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
+  DEP_FILE = CMakeFiles\FinalProject_Part2.dir\doctorOperations.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
+
+build CMakeFiles/FinalProject_Part2.dir/patientOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/patientOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
+  DEP_FILE = CMakeFiles\FinalProject_Part2.dir\patientOperations.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
+
+build CMakeFiles/FinalProject_Part2.dir/commonOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/commonOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
+  DEP_FILE = CMakeFiles\FinalProject_Part2.dir\commonOperations.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FinalProject_Part2
@@ -75,7 +99,7 @@ build CMakeFiles/FinalProject_Part2.dir/person.cpp.obj: CXX_COMPILER__FinalProje
 #############################################
 # Link the executable FinalProject_Part2.exe
 
-build FinalProject_Part2.exe: CXX_EXECUTABLE_LINKER__FinalProject_Part2_Debug CMakeFiles/FinalProject_Part2.dir/final_part2.cpp.obj CMakeFiles/FinalProject_Part2.dir/doctor.cpp.obj CMakeFiles/FinalProject_Part2.dir/person.cpp.obj
+build FinalProject_Part2.exe: CXX_EXECUTABLE_LINKER__FinalProject_Part2_Debug CMakeFiles/FinalProject_Part2.dir/final_part4.cpp.obj CMakeFiles/FinalProject_Part2.dir/doctor.cpp.obj CMakeFiles/FinalProject_Part2.dir/person.cpp.obj CMakeFiles/FinalProject_Part2.dir/patient.cpp.obj CMakeFiles/FinalProject_Part2.dir/doctorOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/patientOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/commonOperations.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
