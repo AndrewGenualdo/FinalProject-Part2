@@ -1,6 +1,23 @@
-//
-// Created by andrew.genualdo on 4/16/2024.
-//
+/*
+ * Author: Drew Genualdo
+ * Class: CSI-240-04
+ * Assignment: Final Project Part 4
+ * Date Assigned: Unknown
+ * Due Date: Apr 19, 2024 @ 1pm
+ *
+ * Description:
+ * A system to store doctors and patients and deal with them
+ *
+ * Certification of Authenticity:
+ * I certify that this is entirely my own work, except where I have given
+ * fully-documented references to the work of others. I understand the definition and
+ * consequences of plagiarism and acknowledge that the assessor of this assignment
+ * may, for the purpose of the assessing this assignment:
+ * - Reproduce this assignment and provide a copy to another member of academic staff;
+ * and/or
+ * - Communicate a copy of this assignment to a plagiarism checking service (which may
+ * then retain a copy of this assignment on its database for the purpose of future plagiarism checking)
+ */
 
 #ifndef FINALPROJECT_PART2_DOCTOROPERATIONS_H
 #define FINALPROJECT_PART2_DOCTOROPERATIONS_H
@@ -12,15 +29,13 @@
 
 const string DOCTOR_FILE = "doctors.txt";
 
+void doctorOperations(Patient **&patients, Doctor doctors[], int numberOfDoctor);
 int getDoctorIndex(Doctor doctors[], int numberOfDoctor, string doctorName);
-
 bool isDoctorExist(Doctor doctors[], int numberOfDoctor, string doctorName);
-
 int loadDoctor(Doctor *&doctors);
-
 void storeDoctor(Doctor doctors[], int numberOfDoctor);
 
-void doctorOperations(Patient **&patients, Doctor doctors[], int numberOfDoctor);
+
 
 
 #endif //FINALPROJECT_PART2_DOCTOROPERATIONS_H

@@ -1,7 +1,7 @@
 /*
  * Author: Drew Genualdo
  * Class: CSI-240-04
- * Assignment: Final Project Part 5
+ * Assignment: Final Project Part 4
  * Date Assigned: Unknown
  * Due Date: Apr 19, 2024 @ 1pm
  *
@@ -33,11 +33,8 @@ int main()
     Patient **patients = new Patient*[doctorCount];
     for(int i=0;i<doctorCount;i++) {
         loadPatient(patients[i], doctors[i]);
-        cout << patients[i][0] << endl;
     }
-
-
-    pause();
+    patientOperations(patients, doctors, doctorCount);
 
     for(int i=0;i<doctorCount;i++) {
         delete [] patients[i];
