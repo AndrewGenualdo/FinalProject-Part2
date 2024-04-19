@@ -23,7 +23,6 @@
 #include "doctor.h"
 #include "doctorOperations.h"
 #include "patientOperations.h"
-#include "commonOperations.h"
 using namespace std;
 
 int main()

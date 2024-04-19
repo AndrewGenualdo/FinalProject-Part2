@@ -14,4 +14,6 @@ add_executable(FinalProject_Part2 final_part4.cpp
         patientOperations.h
         commonOperations.cpp
         commonOperations.h
-        commonOperations.cpp)
+        commonOperations.cpp
+        schedulerOperations.cpp
+        schedulerOperations.h)
