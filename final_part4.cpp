@@ -23,26 +23,50 @@
 #include "doctor.h"
 #include "doctorOperations.h"
 #include "patientOperations.h"
+#include "schedulerOperations.h"
 using namespace std;
+
+
 
 int main()
 {
+    //initialize doctors
     Doctor *doctors = nullptr;
     int doctorCount = loadDoctor(doctors);
+    //initialize patients
     Patient **patients = new Patient*[doctorCount];
     for(int i=0;i<doctorCount;i++) {
         loadPatient(patients[i], doctors[i]);
     }
-    patientOperations(patients, doctors, doctorCount);
 
+    //schedule[DAY][TIME_SLOT][DOCTOR]
+    //schedule[2][5][1] is Wednesday @ 10:15am with the 2nd doctor
+    //initialize schedule.
+    Patient ***schedule = new Patient**[DAY_COUNT];
+    for(int i=0;i<DAY_COUNT;i++) {
+        schedule[i] = new Patient*[TIME_SLOT_COUNT];
+        for(int j=0; j < TIME_SLOT_COUNT; j++) {
+            schedule[i][j] = new Patient[doctorCount];
+        }
+    }
+    loadSchedule(schedule, doctors, doctorCount);
+    //program stuff here
+
+    //delete schedule
+    for(int i=0;i<DAY_COUNT;i++) {
+        for(int j=0; j < TIME_SLOT_COUNT; j++) {
+            delete [] schedule[i][j];
+        }
+        delete [] schedule[i];
+    }
+    delete [] schedule;
+    //delete patients
     for(int i=0;i<doctorCount;i++) {
         delete [] patients[i];
     }
     delete [] patients;
-
-    if(doctorCount != -1) { //-1 means it didn't properly open the "doctors.txt" file
-        delete [] doctors;
-    }
+    //delete doctors
+    delete [] doctors;
 
     return 0;
 }

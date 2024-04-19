@@ -31,8 +31,21 @@ void displaySchedule(int doctorIndex, Patient ***&scheduler)
 
 }
 
+//Patient[day][timeSlot][doctor]
 void loadSchedule(Patient ***&scheduler, Doctor *doctor, int numberOfDoctors)
 {
+    ifstream scheduleStream(SCHEDULE_FILE);
+    if(scheduleStream.is_open() && scheduleStream.good()) {
+        for(int i=0;i<DAY_COUNT;i++) { //0 = Monday, 4 = Friday
+            for(int j=0; j < TIME_SLOT_COUNT; j++) { //0 is 9am, 1 is 9:15am, etc. up to 31 is 4:45pm
+                for(int k=0;k<numberOfDoctors;k++) {
+                    scheduleStream >> scheduler[i][j][k];
+                }
+            }
+        }
+        scheduleStream.close();
+    }
+
 
 }
 

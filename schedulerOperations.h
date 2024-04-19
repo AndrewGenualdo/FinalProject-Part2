@@ -27,6 +27,10 @@
 
 
 const string SCHEDULE_FILE = "schedule.txt";
+const int DAY_COUNT = 5;
+const int SESSIONS_PER_HOUR = 4; //15 minute intervals
+const int WORK_HOURS = 8; //9am to 5pm (8-hour work day)
+const int TIME_SLOT_COUNT = SESSIONS_PER_HOUR * WORK_HOURS;
 
 void addAppointment(Patient **&patients, Doctor doctors[], int numberOfDoctor, Patient ***&scheduler);
 void displaySchedule(int doctorIndex, Patient ***&scheduler);
