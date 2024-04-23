@@ -302,6 +302,6 @@ void storePatient(Patient *patients, Doctor doctor)
         for(int i=0;i<doctor.getNumberOfPatient();i++) {
             patientStream << patients[i];
         }
-        cout << "Saved Dr. " << doctor.getName() << "'s patients!" << endl;
+        cout << "Dr. " << doctor.getName() << "'s patients saved!" << endl;
     }
 }

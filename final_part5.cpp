@@ -24,6 +24,7 @@
 #include "doctorOperations.h"
 #include "patientOperations.h"
 #include "schedulerOperations.h"
+#include "commonOperations.h"
 using namespace std;
 
 
@@ -50,8 +51,48 @@ int main()
         }
     }
     loadSchedule(schedule, doctors, doctorCount);
-    //program stuff here
 
+    //program stuff here
+    int action = 0;
+    while(action != 4) { //MOVE ALL THIS STUFF TO schedulerMenu()
+        clearScreen();
+        cout << "Please choose your action:" << endl
+        << "1 - Patient operations" << endl
+        << "2 - Doctor operations" << endl
+        << "3 - Schedule operations" << endl
+        << "4 - Exit program" << endl;
+        cin >> action;
+        switch(action) {
+            case 1: {
+                patientOperations(patients, doctors, doctorCount);
+                break;
+            }
+            case 2: {
+                cout << "Doctor operations are under maintenance! Please try again later..." << endl << endl;
+                doctorOperations(patients, doctors, doctorCount);
+                break;
+            }
+            case 3: {
+                schedulerOperations(patients, doctors, doctorCount, schedule);
+                break;
+            }
+            default: {
+                cout << "Goodbye!" << endl;
+                break;
+            }
+        }
+    }
+
+
+
+    //save all data to file before exiting
+    storeDoctor(doctors, doctorCount);
+    for(int i=0;i<doctorCount;i++) {
+        storePatient(patients[i], doctors[i]);
+    }
+    storeSchedule(schedule, doctorCount);
+
+    //free up allocated memory to the system
     //delete schedule
     for(int i=0;i<DAY_COUNT;i++) {
         for(int j=0; j < TIME_SLOT_COUNT; j++) {

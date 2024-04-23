@@ -91,4 +91,5 @@ void storeDoctor(Doctor *doctors, int numberOfDoctor)
             doctorStream << doctors[i];
         }
     }
+    cout << "Doctors saved!" << endl;
 }
