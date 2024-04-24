@@ -54,21 +54,15 @@ int main()
 
     //program stuff here
     int action = 0;
-    while(action != 4) { //MOVE ALL THIS STUFF TO schedulerMenu()
-        clearScreen();
-        cout << "Please choose your action:" << endl
-        << "1 - Patient operations" << endl
-        << "2 - Doctor operations" << endl
-        << "3 - Schedule operations" << endl
-        << "4 - Exit program" << endl;
-        cin >> action;
+    while(action != 4) {
+        action = schedulerMenu();
         switch(action) {
             case 1: {
                 patientOperations(patients, doctors, doctorCount);
                 break;
             }
             case 2: {
-                cout << "Doctor operations are under maintenance! Please try again later..." << endl << endl;
+                cout << "Doctor operations are under maintenance! Please try again later..." << endl << endl; //I never did the doctor operations
                 doctorOperations(patients, doctors, doctorCount);
                 break;
             }
@@ -77,7 +71,7 @@ int main()
                 break;
             }
             default: {
-                cout << "Goodbye!" << endl;
+                cout << "Shutting down..." << endl;
                 break;
             }
         }
@@ -86,10 +80,10 @@ int main()
 
 
     //save all data to file before exiting
-    storeDoctor(doctors, doctorCount);
     for(int i=0;i<doctorCount;i++) {
         storePatient(patients[i], doctors[i]);
     }
+    storeDoctor(doctors, doctorCount);
     storeSchedule(schedule, doctorCount);
 
     //free up allocated memory to the system

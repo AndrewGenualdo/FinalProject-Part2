@@ -16,4 +16,6 @@ add_executable(FinalProject_Part2 final_part5.cpp
         commonOperations.h
         commonOperations.cpp
         schedulerOperations.cpp
-        schedulerOperations.h)
+        schedulerOperations.h
+        functions.cpp
+        header.h)

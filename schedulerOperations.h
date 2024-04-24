@@ -28,8 +28,9 @@
 
 const string SCHEDULE_FILE = "schedule.txt";
 const int DAY_COUNT = 1;
-const int SESSIONS_PER_HOUR = 4; //15 minute intervals
 const int WORK_HOURS = 8; //9am to 5pm (8-hour work day)
+const int SESSION_MINUTES = 15;
+const int SESSIONS_PER_HOUR = 60 / SESSION_MINUTES;
 const int TIME_SLOT_COUNT = SESSIONS_PER_HOUR * WORK_HOURS;
 const string DAYS_OF_THE_WEEK[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 

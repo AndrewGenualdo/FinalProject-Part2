@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target FinalProject_Part2
 
@@ -49,50 +49,56 @@ cmake_ninja_workdir = C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part
 
 build cmake_object_order_depends_target_FinalProject_Part2: phony || CMakeFiles/FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/final_part5.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/final_part5.cpp || cmake_object_order_depends_target_FinalProject_Part2
+build CMakeFiles/FinalProject_Part2.dir/final_part5.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/final_part5.cpp || cmake_object_order_depends_target_FinalProject_Part2
   DEP_FILE = CMakeFiles\FinalProject_Part2.dir\final_part5.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/doctor.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/doctor.cpp || cmake_object_order_depends_target_FinalProject_Part2
+build CMakeFiles/FinalProject_Part2.dir/doctor.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/doctor.cpp || cmake_object_order_depends_target_FinalProject_Part2
   DEP_FILE = CMakeFiles\FinalProject_Part2.dir\doctor.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/person.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/person.cpp || cmake_object_order_depends_target_FinalProject_Part2
+build CMakeFiles/FinalProject_Part2.dir/person.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/person.cpp || cmake_object_order_depends_target_FinalProject_Part2
   DEP_FILE = CMakeFiles\FinalProject_Part2.dir\person.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/patient.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/patient.cpp || cmake_object_order_depends_target_FinalProject_Part2
+build CMakeFiles/FinalProject_Part2.dir/patient.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/patient.cpp || cmake_object_order_depends_target_FinalProject_Part2
   DEP_FILE = CMakeFiles\FinalProject_Part2.dir\patient.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/doctorOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/doctorOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
+build CMakeFiles/FinalProject_Part2.dir/doctorOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/doctorOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
   DEP_FILE = CMakeFiles\FinalProject_Part2.dir\doctorOperations.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/patientOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/patientOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
+build CMakeFiles/FinalProject_Part2.dir/patientOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/patientOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
   DEP_FILE = CMakeFiles\FinalProject_Part2.dir\patientOperations.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/commonOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/commonOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
+build CMakeFiles/FinalProject_Part2.dir/commonOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/commonOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
   DEP_FILE = CMakeFiles\FinalProject_Part2.dir\commonOperations.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
 
-build CMakeFiles/FinalProject_Part2.dir/schedulerOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/schedulerOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
+build CMakeFiles/FinalProject_Part2.dir/schedulerOperations.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/schedulerOperations.cpp || cmake_object_order_depends_target_FinalProject_Part2
   DEP_FILE = CMakeFiles\FinalProject_Part2.dir\schedulerOperations.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
+
+build CMakeFiles/FinalProject_Part2.dir/functions.cpp.obj: CXX_COMPILER__FinalProject_Part2_unscanned_Debug C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/functions.cpp || cmake_object_order_depends_target_FinalProject_Part2
+  DEP_FILE = CMakeFiles\FinalProject_Part2.dir\functions.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject_Part2.dir
@@ -105,7 +111,7 @@ build CMakeFiles/FinalProject_Part2.dir/schedulerOperations.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable FinalProject_Part2.exe
 
-build FinalProject_Part2.exe: CXX_EXECUTABLE_LINKER__FinalProject_Part2_Debug CMakeFiles/FinalProject_Part2.dir/final_part5.cpp.obj CMakeFiles/FinalProject_Part2.dir/doctor.cpp.obj CMakeFiles/FinalProject_Part2.dir/person.cpp.obj CMakeFiles/FinalProject_Part2.dir/patient.cpp.obj CMakeFiles/FinalProject_Part2.dir/doctorOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/patientOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/commonOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/schedulerOperations.cpp.obj
+build FinalProject_Part2.exe: CXX_EXECUTABLE_LINKER__FinalProject_Part2_Debug CMakeFiles/FinalProject_Part2.dir/final_part5.cpp.obj CMakeFiles/FinalProject_Part2.dir/doctor.cpp.obj CMakeFiles/FinalProject_Part2.dir/person.cpp.obj CMakeFiles/FinalProject_Part2.dir/patient.cpp.obj CMakeFiles/FinalProject_Part2.dir/doctorOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/patientOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/commonOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/schedulerOperations.cpp.obj CMakeFiles/FinalProject_Part2.dir/functions.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FinalProject_Part2.dir
@@ -120,7 +126,7 @@ build FinalProject_Part2.exe: CXX_EXECUTABLE_LINKER__FinalProject_Part2_Debug CM
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\andrew.genualdo\Desktop\GitHub\FinalProject-Part2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\drewg\Desktop\Dev\.school\FinalProject-Part2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -131,7 +137,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\andrew.genualdo\Desktop\GitHub\FinalProject-Part2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\andrew.genualdo\Desktop\GitHub\FinalProject-Part2 -BC:\Users\andrew.genualdo\Desktop\GitHub\FinalProject-Part2\cmake-build-debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\drewg\Desktop\Dev\.school\FinalProject-Part2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\drewg\Desktop\Dev\.school\FinalProject-Part2 -BC:\Users\drewg\Desktop\Dev\.school\FinalProject-Part2\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -149,7 +155,7 @@ build FinalProject_Part2: phony FinalProject_Part2.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/cmake-build-debug
+# Folder: C:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/cmake-build-debug
 
 build all: phony FinalProject_Part2.exe
 
@@ -160,14 +166,14 @@ build all: phony FinalProject_Part2.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/andrew.genualdo/Desktop/GitHub/FinalProject-Part2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/drewg/Desktop/Dev/.school/FinalProject-Part2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
